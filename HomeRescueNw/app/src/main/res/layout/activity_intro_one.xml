@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntroOne">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="432dp"
+            android:layout_height="347dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/top_background" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="412dp"
+            android:layout_height="352dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.192"
+            app:srcCompat="@drawable/allato" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="214dp"
+            android:layout_height="147dp"
+            android:background="#7AB4BD"
+            android:backgroundTint="#8981D5"
+            android:text="Hassle Free Home Maintarance At Your Finger Tip"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.436"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.727" />
+
+        <Button
+            android:id="@+id/introtwobtn"
+            android:layout_width="158dp"
+            android:layout_height="66dp"
+            android:text="Next"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.451"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.803" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
