@@ -154,10 +154,7 @@ HomeRescueNw/
 - Colors are defined in `res/values/colors.xml`
 - Styles are in `res/values/themes.xml`
 - Strings are in `res/values/strings.xml`
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- 
 
 ## 🤝 Contributing
 
