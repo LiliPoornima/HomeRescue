@@ -54,46 +54,8 @@ HomeRescueNw/
 │   └── build.gradle.kts
 └── build.gradle.kts
 ``
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Android Studio (latest version)
-- Android SDK (API 24 or higher)
-- Java Development Kit (JDK 11)
-
-### Installation
-
-1. **Clone the repository**
-   ``bash
-   git clone https://github.com/yourusername/HomeRescue.git
-   cd HomeRescue
    ```
 
-2. **Open in Android Studio**
-   - Launch Android Studio
-   - Open the `HomeRescueNw` folder as a project
-
-3. **Sync and Build**
-   - Wait for Gradle sync to complete
-   - Build the project (Build → Make Project)
-
-4. **Run the App**
-   - Connect an Android device or start an emulator
-   - Click the "Run" button or press Shift+F10
-
-### Building for Release
-
-1. **Generate Signed APK**
-   - Build → Generate Signed Bundle/APK
-   - Choose APK option
-   - Create or select a keystore
-   - Choose release build variant
-
-2. **Install on Device**
-   - Transfer the generated APK to your device
-   - Enable "Install from Unknown Sources" in device settings
-   - Install the APK
   
   
 <img width="557" height="391" alt="hr11" src="https://github.com/user-attachments/assets/b128ece6-b9ff-465d-bece-9e988eea59f3" />
@@ -155,31 +117,6 @@ HomeRescueNw/
 - Styles are in `res/values/themes.xml`
 - Strings are in `res/values/strings.xml`
 - 
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📞 Support
-
-For support and questions:
-- Create an issue in the GitHub repository
-- Contact the development team
-- Check the documentation for common issues
-
-## 🔮 Future Enhancements
-
-- [ ] Real-time service provider matching
-- [ ] In-app messaging system
-- [ ] Payment integration
-- [ ] Service history and reviews
-- [ ] Push notifications
-- [ ] Offline mode support
-- [ ] Multi-language support
 
 ---
 
